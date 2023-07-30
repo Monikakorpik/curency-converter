@@ -1,0 +1,158 @@
+
+* *,
+::after,
+::before {
+  box-sizing: inherit;
+}
+.naglowek {
+  color: rgb(114, 4, 9);
+  margin: auto;
+}
+
+.space {
+  padding: 50px/30px;
+  line-height: 1, 5;
+}
+
+.caption {
+  caption-side: bottom;
+  text-align: right margin top 20px;
+}
+
+.container {
+  overflow: auto;
+}
+.body {
+  background-color: rgb(216, 197, 197);
+  max-width: 1000px;
+  border: 2px;
+  margin: auto;
+  padding: 15px;
+  border: 2px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.headline {
+  color: #080808;
+}
+
+.header {
+  color: rgb(19, 20, 6);
+  margin-left: 200px;
+}
+
+.navigation {
+  margin-left: 100px;
+  margin-right: 100px;
+  list-style-type: none;
+  padding: 8px 20px;
+  overflow: hidden;
+  background-color: rgba(232, 152, 188, 0.377);
+  box-shadow: 1px 1px 5px 0px;
+  border: 100% solid black;
+  max-width: 100%;
+}
+.footer {
+  background-color: rgb(232, 152, 188, 0.377);
+  text-align: center;
+  padding: 6px;
+  font-size: 12px;
+  color: #0d0c0c;
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.naglowek {
+  color: rgb(114, 4, 9);
+  margin: auto;
+}
+.border {
+  margin: auto;
+  width: 300px;
+  border-width: 2px 10px;
+  border-color: crimson;
+  border-style: ridge;
+  border-radius: 20px / 40px;
+  outline: 10px rgb(65, 4, 34);
+  padding: 20px 10px;
+}
+
+.article {
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 2px 2px 8px #a35858;
+  margin: 20px auto;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+.naglowek {
+  color: rgb(114, 4, 9);
+  margin: auto;
+}
+.border {
+  margin: auto;
+  width: 300px;
+  border-width: 2px 10px;
+  border-color: crimson;
+  border-style: ridge;
+  border-radius: 20px / 40px;
+  outline: 10px rgb(65, 4, 34);
+  padding: 20px 10px;
+}
+
+.form {
+  margin: 10px;
+}
+
+.form__labelText {
+  width: 100%;
+  max-width: 200px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.form__field {
+  border: 1px solid #cc1717;
+  padding: 20px;
+  width: 100% max-width 100px;
+  border: radius5px;
+}
+.form__button {
+  width: 100%;
+  border: none;
+  background-color: rgb(119, 109, 141);
+  color: white;
+  padding: 10px;
+  border: radius 5px;
+}
+.form__button:hover {
+  background-color: rgb(216, 72, 139);
+}
+.form_button:active {
+  background-color: rgb(100, 100%, 35%);
+  color: black;
+}
+.form__fieldset {
+  border: 1px solid #832727;
+  padding: 30px;
+  border: radius 5px;
+  margin: 20px 0;
+}
+.form__legend {
+  background-color: rgb(91, 50, 99);
+  color: rgb(223, 181, 181);
+  border-radius: 5px;
+  padding: 10px;
+}
