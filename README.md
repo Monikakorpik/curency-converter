@@ -1,4 +1,5 @@
 # Curency Conventer
+![Calculator](https://github.com/Monikakorpik/curency-converter/blob/main/Images/CALCULATOR.png?raw=true)
 
 ## My second project
 
@@ -11,5 +12,5 @@ I present a currency calculator, thanks to which you can convert the value of th
 *Techonolgies I used in the project:*
 1. HTML
 1. CSS
-3. BEM
+3. BEMS
 4. JavaScript
