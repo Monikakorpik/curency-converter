@@ -8,7 +8,7 @@
 I present a currency calculator, thanks to which you can convert the value of the Polish zloty in relation to the following currencies: EUR, USD, GPB
 
 
-I invite you to visit my website [Currency converter](https://monikakorpik.github.io/curency-converter)
+I invite you to visit my website [Currency converter]
 
 *Techonolgies I used in the project:*
 1. HTML
