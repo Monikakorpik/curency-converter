@@ -1,0 +1,8 @@
+.element {
+width: 300
+height: 300 
+resize: both
+owerflow: auto
+background-image: ("../images/Background.png")
+
+}
