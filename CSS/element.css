@@ -1,8 +1,7 @@
 .element {
-width: 300
-height: 300 
-resize: both
-owerflow: auto
-background-image: ("../images/Background.png")
-
+width: 300px;
+height: 300px;
+resize:both;
+overflow:auto;
+background-image: url("../images/Background.png");
 }
