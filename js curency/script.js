@@ -29,3 +29,15 @@ form.addEventListener("submit", (event) => {
   }
   resultText.innerText =`${parseFloat(inputValue.value)} PLN to ${result} ${currencyText}`
 });
+
+  {
+const hideSection=()=>{
+    const section = document.querySelector(".js-section");
+    section.classList.add(".section--hidden");
+};
+const init=()=>{
+  hideSection();
+};
+init();
+}
+
