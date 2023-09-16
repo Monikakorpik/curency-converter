@@ -1,3 +1,4 @@
+{
 let form = document.querySelector (".js-form");
 let resultText = document.querySelector (".js-formResult");
 let inputValue = document.querySelector (".js-formPLN");
@@ -8,6 +9,7 @@ let usd = 3.90;
 let gbp = 4.99;
 let result;
 let currencyText;
+
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -39,5 +41,5 @@ const init=()=>{
   hideSection();
 };
 init();
-}
+}}
 
