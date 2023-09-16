@@ -1,4 +1,4 @@
-{
+
 let form = document.querySelector (".js-form");
 let resultText = document.querySelector (".js-formResult");
 let inputValue = document.querySelector (".js-formPLN");
@@ -41,5 +41,13 @@ const init=()=>{
   hideSection();
 };
 init();
-}}
+}
+function double(numer){
+  return number *2;
+}
+let myNumber =5;
+
+console.log(double(myNumber));
+console.log(double(10));
+
 
