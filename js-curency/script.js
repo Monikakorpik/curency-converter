@@ -1,53 +1,40 @@
+{
+  const form = document.querySelector (".js-form");
+const resultText = document.querySelector (".js-formResult");
+const inputValue = document.querySelector (".js-formPLN");
+const selectedCurrency = document.querySelector (".js-currency");
+const calculateResult = (amount, selectedCurrency) => {
+  const EUR = 4.21;
+const USD = 3.90;
+const GBP = 4.99
+  switch (selectedCurrency) {
 
-let form = document.querySelector (".js-form");
-let resultText = document.querySelector (".js-formResult");
-let inputValue = document.querySelector (".js-formPLN");
-let selectedCurrency = document.querySelector (".js-currency");
+    case "EUR":
+      return amount / EUR;
+      currencyText = "Euro";
+    
+    case "USD":
+      return amount / USD;
+      currencyText = "dolarów";
+    
 
-let eur = 4.21;
-let usd = 3.90;
-let gbp = 4.99;
-let result;
-let currencyText;
+    case "GBP":
+      return amount / GBP;
+      currencyText = "funtów";
+      
+  }
+}
+
+const amount = +amountElement.value;
+const selectedCurrency = currencyElement.value;
+const result = calculateResult(amount, selectedCurrency);
+const currencyText;
 
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-  switch (selectedCurrency.value) {
-
-    case "EUR":
-      result = (inputValue.value / eur).toFixed(2);
-      currencyText = "Euro";
-      break
-    case "USD":
-      result = (inputValue.value / usd).toFixed(2);
-      currencyText = "dolarów";
-      break
-
-    case "GBP":
-      result = (inputValue.value / gbp).toFixed(2);
-      currencyText = "funtów";
-      break
-  }
+  
   resultText.innerText =`${parseFloat(inputValue.value)} PLN to ${result} ${currencyText}`
 });
 
-  {
-const hideSection=()=>{
-    const section = document.querySelector(".js-section");
-    section.classList.add(".section--hidden");
-};
-const init=()=>{
-  hideSection();
-};
-init();
 }
-function double(numer){
-  return number *2;
-}
-let myNumber =5;
-
-console.log(double(myNumber));
-console.log(double(10));
-
-
