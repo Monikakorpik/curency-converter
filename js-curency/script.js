@@ -31,9 +31,10 @@ form.addEventListener("submit", (event) => {
  
 const resultText = document.querySelector (".js-formResult");
 const amountElement = document.querySelector (".js-formPLN");
-const selectedCurrency = document.querySelector (".js-currency");
+const currencyElement = document.querySelector (".js-currency");
 const amount = +amountElement.value;
 const selectedCurrency = currencyElement.value;
+
 const result = calculateResult(amount, selectedCurrency);
 const currencyText;
   
